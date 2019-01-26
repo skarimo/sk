@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <div id="projects" className="body projects">
-          <h1 className="body-header highlight-secondary right">Projects page</h1>
+          <h1 className="body-header highlight-primary right">projects page</h1>
 
           <p> lorem Ita tamen proident, export officia ut appellat. Eu incididunt sed expetendis ex
           ea legam probant laboris, aliquip labore quem deserunt sint ab nam in veniam

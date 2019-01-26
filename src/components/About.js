@@ -3,7 +3,7 @@ import React from 'react'
 const About = (props) => {
     return (
       <div id="about" className="body about">
-        <h1 className="body-header highlight-secondary left">About Me</h1>
+        <h1 className="body-header highlight-primary left">about me</h1>
 
         <p> lorem Ita tamen proident, export officia ut appellat. Eu incididunt sed expetendis ex
         ea legam probant laboris, aliquip labore quem deserunt sint ab nam in veniam

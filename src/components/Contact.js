@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = (props) => {
     return (
       <div id="contact" className="body contact">
-        <h1 className="body-header highlight-secondary left">Contact page</h1>
+        <h1 className="body-header highlight-primary left">contact</h1>
 
         <p> lorem Ita tamen proident, export officia ut appellat. Eu incididunt sed expetendis ex
         ea legam probant laboris, aliquip labore quem deserunt sint ab nam in veniam

@@ -17,11 +17,11 @@ const Welcome = () => {
       <div className="welcome">
         <h1 style={{
             color: 'ghostwhite',
-            fontSize: '10vw',
+            fontSize: '3rem',
             fontWeight: '100',
             margin: '2vh',
           }}
-        >Hi, I'm <span className="highlight-primary bold">Sherzod</span></h1>
+        >hi, i'm <span className="highlight-primary" style={{ fontSize: '6rem' }}>Sherzod</span></h1>
 
       <div>
         <img src={Headshot} alt="Avatar"
@@ -30,7 +30,7 @@ const Welcome = () => {
             width: '258px'
             }}
           />
-        <h3 style={{fontWeight: 300}} className="highlight-secondary">Full Stack Developer</h3>
+        <h3 style={{fontWeight: 300}} className="highlight-primary">Full Stack Developer</h3>
       </div>
 
       <span>
