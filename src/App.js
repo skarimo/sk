@@ -18,7 +18,7 @@ class App extends Component {
         <React.Fragment>
           <Navbar />
           <div>
-            <ScrollAnimation animateIn="slideInUp" duration='3'>
+            <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration='1'>
               <Welcome />
             </ScrollAnimation>
           </div>

@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(0, 0, 0, 0.8)), url("background2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("background2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #2d3436;
@@ -25,7 +25,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("background2.jpg");
     background-size: 400vw auto;
     background-position-x: right;
-    }
+  }
 }
 
 code {

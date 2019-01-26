@@ -34,7 +34,7 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #778899;
 }
 
 /* Position and sizing of clickable cross button */
@@ -50,7 +50,7 @@
 
 /* General sidebar styles */
 .bm-menu {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   padding: 2.5em 1.5em 0;
   font-size: 1.5em;
 }
