@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 
+// import { Animated } from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class App extends Component {
@@ -16,13 +18,24 @@ class App extends Component {
         <React.Fragment>
           <Navbar />
           <div>
-            <Welcome />
+            <ScrollAnimation animateIn="slideInUp" duration='3'>
+              <Welcome />
+            </ScrollAnimation>
           </div>
 
           <div className="body-container">
-            <About />
-            <Projects />
-            <Contact />
+            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+              <About />
+            </ScrollAnimation>
+
+            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+              <Projects />
+            </ScrollAnimation>
+
+            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+              <Contact />
+            </ScrollAnimation>
+
           </div>
         </React.Fragment>
       </div>
