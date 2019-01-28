@@ -1,0 +1,17 @@
+#skills-container {
+  width: 50%;
+  float: left;
+  padding-right: 1.5%;
+}
+
+.skillbar-percent {
+  color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #skills-container {
+    width: 100%;
+    float: left;
+  }
+}
