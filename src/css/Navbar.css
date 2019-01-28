@@ -12,7 +12,7 @@
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 15px;
-  color: #d1d1d1;
+  color: white;
   transition: color 0.3s;
 }
 
@@ -30,12 +30,12 @@
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 36px;
+  top: 24px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #778899;
+  background: #4bcffa;
 }
 
 /* Position and sizing of clickable cross button */

@@ -17,11 +17,13 @@
   margin: 0 auto;
   min-height: 100vh;
   margin-top: 10px;
+  padding-top: 25px;
 }
 
 .highlight-primary {
   color: #4bcffa;
   font-weight: 200;
+  font-family: 'Amatic SC', cursive;
 }
 
 .highlight-secondary {
