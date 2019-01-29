@@ -27,6 +27,9 @@ const colors = {
   }
 }
 
+const backgroundQuote = 'A journey of a thousand miles begins with a single step'
+const backgroundText = 'That single step occured at the age of 12. '
+
 const About = () => {
     return (
       <div id="about" className="body about">
@@ -41,9 +44,9 @@ const About = () => {
           </div>
 
 
-          <span style={{  fontStyle: 'italic'}}>'A journey of a thousand miles begins with a single step'</span> - Lao Tzu
+          <span style={{  fontStyle: 'italic'}}>'{ backgroundQuote }'</span> - Lao Tzu
           <p>
-            My journey as a programmer lorem
+            { backgroundText }
           </p>
       </div>
     )

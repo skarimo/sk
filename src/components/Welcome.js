@@ -14,7 +14,7 @@ const Welcome = () => {
   const mediumLink = "https://medium.com/@karimovj"
 
     return (
-      <div className="welcome">
+      <div id='welcome' className="welcome">
         <h1 style={{
             color: 'ghostwhite',
             fontSize: '3rem',
