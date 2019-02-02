@@ -12,7 +12,8 @@
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 15px;
-  color: white;
+  color: ghostwhite;
+  font-family: 'Amatic SC', cursive;
   transition: color 0.3s;
 }
 

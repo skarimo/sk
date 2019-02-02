@@ -37,10 +37,14 @@ const About = () => {
 
 
           <div id='skills-container'>
-            <h3 className={'highlight-primary'} style={{fontSize:'150%'}}>Technical Skills</h3>
-            <SkillBar animationDelay={0} skills={technicalSkills} width={'100px'} height={'20px'} colors={colors}/>
-            <h3 className={'highlight-primary'}>Soft Skills</h3>
-            <SkillBar animationDelay={0} skills={softSkills} width={'100px'} height={'20px'} colors={colors}/>
+            <div>
+              <h3 className={'highlight-primary'} style={{fontSize:'150%'}}>Technical Skills</h3>
+              <SkillBar animationDelay={0} skills={technicalSkills} width={'100px'} height={'20px'} colors={colors}/>
+            </div>
+            <div>
+              <h3 className={'highlight-primary'}>Soft Skills</h3>
+              <SkillBar animationDelay={0} skills={softSkills} width={'100px'} height={'20px'} colors={colors}/>
+            </div>
           </div>
 
 

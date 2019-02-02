@@ -18,21 +18,21 @@ class App extends Component {
         <React.Fragment>
           <Navbar />
           <div>
-            <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration='1'>
+            <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
               <Welcome />
             </ScrollAnimation>
           </div>
 
           <div className="body-container">
-            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+            <ScrollAnimation animateIn="fadeIn" duration={1}>
               <About />
             </ScrollAnimation>
 
-            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+            <ScrollAnimation animateIn="fadeIn" duration={1}>
               <Projects />
             </ScrollAnimation>
 
-            <ScrollAnimation animateIn="fadeIn" duration='1.5'>
+            <ScrollAnimation animateIn="fadeIn" duration={1}>
               <Contact />
             </ScrollAnimation>
 
