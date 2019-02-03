@@ -6,11 +6,14 @@ class Projects extends Component {
 
 
   render() {
-    console.log(ProjectList)
+    const projectCards = ProjectList.map((project) => <ProjectCard project={project}/>)
+
       return (
           <div id="projects" className="body projects">
             <h1 className="body-header highlight-primary right">projects page</h1>
-            <ProjectCard />
+              <div id='project-container' style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row'}}>
+                {projectCards}
+              </div>
           </div>
       )
     }
