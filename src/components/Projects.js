@@ -11,7 +11,7 @@ class Projects extends Component {
       return (
           <div id="projects" className="body projects">
             <h1 className="body-header highlight-primary right">projects page</h1>
-              <div id='project-container' style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row'}}>
+              <div id='project-container' style={{display: 'flex', width: '100%', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>
                 {projectCards}
               </div>
           </div>
