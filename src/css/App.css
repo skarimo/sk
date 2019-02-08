@@ -28,8 +28,8 @@
 
 .highlight-secondary {
   color: white;
-  -webkit-text-decoration: #bdc3c7 double underline;
-  text-decoration: #bdc3c7 double underline;
+  font-family: 'Amatic SC', cursive;
+
 }
 
 .left {

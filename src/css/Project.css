@@ -1,0 +1,15 @@
+.project-view-button {
+  background-color: #008CBA;
+  font-size: 24px;
+  border-radius: 12px;
+  color: white;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 300ms, visibility 300ms;
+}
+
+.project-cards:hover .project-view-button {
+  visibility: visible;
+  opacity: 1;
+}

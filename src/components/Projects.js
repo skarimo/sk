@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ProjectCard from './ProjectCard';
 import { ProjectList } from './ProjectList';
+import '../css/Project.css';
 
 class Projects extends Component {
 
