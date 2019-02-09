@@ -3,22 +3,21 @@ import '../css/Modal.css';
 
 const ProjectModal = ({ showProject }) => {
     return (
-      <div className="modal" style={{
-        display: `${showProject ?  'block' : 'none'}`,
-        backgroundColor: 'pink'
+      <div className="modal-overlay" style={{
+        display: `${showProject ?  'flex' : 'none'}`,
       }}>
-
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-      hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
-
+        <div className='modal-content'>
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+        </div>
       </div>
     )
   }

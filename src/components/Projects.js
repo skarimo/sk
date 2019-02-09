@@ -4,6 +4,8 @@ import ProjectModal from './ProjectModal';
 import { ProjectList } from './ProjectList';
 import '../css/Project.css';
 
+import disableScroll from 'disable-scroll';
+
 class Projects extends Component {
   constructor() {
     super()
@@ -13,10 +15,12 @@ class Projects extends Component {
   }
 
   openModal = (project) => {
+    disableScroll.on()
     this.setState({showProject: project})
   }
 
   closeModal = () => {
+    disableScroll.off()
     this.setState({showProject: false})
   }
 
