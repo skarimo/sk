@@ -16,10 +16,7 @@ body {
 
   background-size: cover;
   color: ghostwhite;
-
   font-size-adjust: 0.5;
-
-
 }
 
 @media only screen and (max-width: 600px) {
