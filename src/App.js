@@ -17,26 +17,16 @@ class App extends Component {
       <div className="App">
         <React.Fragment>
           <Navbar />
-          <div>
-            <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
-              <Welcome />
-            </ScrollAnimation>
-          </div>
+          
+          <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
+            <Welcome />
+          </ScrollAnimation>
 
-          <div className="body-container">
-            <ScrollAnimation animateIn="fadeIn" duration={1}>
-              <About />
-            </ScrollAnimation>
-
-            <ScrollAnimation animateIn="fadeIn" duration={1}>
-              <Projects />
-            </ScrollAnimation>
-
-            <ScrollAnimation animateIn="fadeIn" duration={1}>
-              <Contact />
-            </ScrollAnimation>
-
-          </div>
+          <ScrollAnimation animateIn="fadeIn" duration={1}>
+            <About />
+            <Projects />
+            <Contact />
+          </ScrollAnimation>
         </React.Fragment>
       </div>
     );

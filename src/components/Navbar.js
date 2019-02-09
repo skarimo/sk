@@ -27,11 +27,8 @@ class Navbar extends Component {
           onStateChange={(state) => this.handleStateChange(state)}
           >
           <a onClick={() => this.closeMenu()} href="#welcome" className="menu-item">Main Page</a>
-
           <a onClick={() => this.closeMenu()} href="#about" className="menu-item">About</a>
-
           <a onClick={() => this.closeMenu()} href="#projects" className="nav-links">Projects</a>
-
           <a onClick={() => this.closeMenu()} href="#contact" className="nav-links">Contact</a>
         </Menu>
         )

@@ -4,7 +4,6 @@ import ProjectModal from './ProjectModal';
 import { ProjectList } from './ProjectList';
 import '../css/Project.css';
 
-import disableScroll from 'disable-scroll';
 
 class Projects extends Component {
   constructor() {
@@ -15,12 +14,10 @@ class Projects extends Component {
   }
 
   openModal = (project) => {
-    disableScroll.on()
     this.setState({showProject: project})
   }
 
   closeModal = () => {
-    disableScroll.off()
     this.setState({showProject: false})
   }
 
@@ -30,7 +27,7 @@ class Projects extends Component {
       return (
           <div id="projects" className="body projects">
 
-            <ProjectModal showProject={this.state.showProject} />
+            <ProjectModal showProject={this.state.showProject} closeModal={this.closeModal} />
 
             <h1 className="body-header highlight-primary right">projects page</h1>
               <div id='project-container' style={{display: 'flex', width: '100%', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/Modal.css';
 
-const ProjectModal = ({ showProject }) => {
+const ProjectModal = ({ showProject, closeModal }) => {
     return (
-      <div className="modal-overlay" style={{
+      <div className="modal-overlay" onClick={closeModal} style={{
         display: `${showProject ?  'flex' : 'none'}`,
       }}>
         <div className='modal-content'>
