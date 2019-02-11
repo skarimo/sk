@@ -3,20 +3,20 @@ import SkillBar from 'react-skillbars';
 import '../css/About.css';
 
 const technicalSkills = [
-  {type: "React", level: 85},
-  {type: "Redux", level: 85},
-  {type: "Javascript", level: 75},
-  {type: "Ruby", level: 75},
-  {type: "Rails", level: 75},
-  {type: "CSS", level: 75},
-  {type: "HTML", level: 75},
+  {type: "React", level: 80},
+  {type: "Redux", level: 75},
+  {type: "Javascript", level: 90},
+  {type: "Ruby", level: 85},
+  {type: "Rails", level: 85},
+  {type: "CSS", level: 90},
+  {type: "HTML", level: 90},
 ]
 const softSkills = [
-  {type: "Leadership", level: 85},
-  {type: "Communication", level: 85},
-  {type: "Teamwork", level: 85},
-  {type: "Adaptability", level: 85},
-  {type: "Work Ethic", level: 85},
+  {type: "Leadership", level: 90},
+  {type: "Communication", level: 90},
+  {type: "Teamwork", level: 100},
+  {type: "Adaptability", level: 100},
+  {type: "Work Ethic", level: 100},
 ]
 
 const colors = {
@@ -27,8 +27,8 @@ const colors = {
   }
 }
 
-const backgroundQuote = 'A journey of a thousand miles begins with a single step'
-const backgroundText = 'That single step occured at the age of 12. '
+// const backgroundQuote = 'A journey of a thousand miles begins with a single step'
+// const backgroundText = 'That single step occured at the age of 12. '
 
 const About = () => {
     return (
@@ -48,9 +48,9 @@ const About = () => {
           </div>
 
 
-          <span style={{  fontStyle: 'italic'}}>'{ backgroundQuote }'</span> - Lao Tzu
+          {/*<span style={{  fontStyle: 'italic'}}>'{ backgroundQuote }'</span> - Lao Tzu*/}
           <p>
-            { backgroundText }
+            Hi, I am <span className='highlight-secondary'>Sherzod</span>. A little about me: I am originally from a Central Asian country <span className='highlight-secondary'>Uzbekistan</span>. I recieved my <span className='highlight-secondary'>Bachelors Degree</span> from Queens College, CUNY in 2017. Being from Uzbekistan, I speak four different languages, <span className='highlight-secondary'>English, Russian, Uzbek and Tadjik</span>.
           </p>
       </div>
     )

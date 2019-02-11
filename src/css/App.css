@@ -20,14 +20,20 @@
   padding-top: 25px;
 }
 
+.body > p {
+  font-size: 120%;
+}
+
 .highlight-primary {
   color: #4bcffa;
-  font-weight: 200;
+  font-weight: 600;
   font-family: 'Amatic SC', cursive;
 }
 
 .highlight-secondary {
-  color: white;
+  color: #4bcffa;
+  font-size: 150%;
+  font-weight: 900;
   font-family: 'Amatic SC', cursive;
 }
 

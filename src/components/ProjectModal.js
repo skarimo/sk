@@ -12,8 +12,8 @@ const ProjectModal = ({ showProject, closeModal }) => {
           </div>
 
           <div className='modal-buttons'>
-            <button className="project-github-button">FrontEnd REPO</button>
-            <button className="project-github-button">BackEnd REPO </button>
+            <button onClick={()=> window.open(showProject.githubFront, "_blank")} className="project-github-button">FrontEnd REPO</button>
+            <button onClick={()=> window.open(showProject.githubBack, "_blank")} className="project-github-button">BackEnd REPO </button>
           </div>
         </div>
       </div>
