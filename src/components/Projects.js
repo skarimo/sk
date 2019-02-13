@@ -30,7 +30,13 @@ class Projects extends Component {
             <ProjectModal showProject={this.state.showProject} closeModal={this.closeModal} />
 
             <h1 className="body-header highlight-primary right">projects page</h1>
-              <div id='project-container' style={{display: 'flex', width: '100%', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>
+              <div id='project-container' style={{
+                  display: 'flex', 
+                  width: '100%',
+                  flexWrap: 'wrap',
+                  flexDirection: 'row',
+                  justifyContent: 'center'
+                }}>
                 {projectCards}
               </div>
           </div>

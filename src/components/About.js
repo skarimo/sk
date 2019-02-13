@@ -46,13 +46,8 @@ const About = () => {
               <SkillBar animationDelay={0} skills={softSkills} width={'100px'} height={'20px'} colors={colors}/>
             </div>
           </div>
-
-
-          {/*<span style={{  fontStyle: 'italic'}}>'{ backgroundQuote }'</span> - Lao Tzu*/}
           <p>
-            Hi, I am <span className='highlight-secondary'>Sherzod</span>. A little about me: I am originally from a Central Asian country <span className='highlight-secondary'>Uzbekistan</span>. I recieved my <span className='highlight-secondary'>Bachelors Degree</span> from Queens College, CUNY in 2017. Being from Uzbekistan, I speak four different languages, <span className='highlight-secondary'>English, Russian, Uzbek and Tadjik</span>. 
-
-
+            Hi, I am <span className='highlight-secondary'>Sherzod</span>. A little about me: I am originally from a Central Asian country <span className='highlight-secondary'>Uzbekistan</span>. I recieved my <span className='highlight-secondary'>Bachelors Degree</span> from Queens College, CUNY in 2017. Being from Uzbekistan, I speak four different languages, <span className='highlight-secondary'>English, Russian, Uzbek and Tadjik</span>.
           </p>
       </div>
     )
