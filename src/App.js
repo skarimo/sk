@@ -14,21 +14,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <React.Fragment>
-          <Navbar />
-
-          <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
-            <Welcome />
-          </ScrollAnimation>
-              <div className='divider'/>
-          <ScrollAnimation animateIn="fadeIn" duration={1}>
-            <About />
-              <div className='divider'/>
-            <Projects />
-              <div className='divider'/>
-            <Contact />
-          </ScrollAnimation>
-        </React.Fragment>
+        <Navbar />
+        <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
+          <Welcome />
+        </ScrollAnimation>
+            <div className='divider'/>
+        <ScrollAnimation animateIn="fadeIn" duration={1}>
+          <About />
+            <div className='divider'/>
+          <Projects />
+            <div className='divider'/>
+          <Contact />
+        </ScrollAnimation>
       </div>
     );
   }

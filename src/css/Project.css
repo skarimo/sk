@@ -1,3 +1,4 @@
+/* project modal buttons  */
 .project-view-button {
   background-color: #008CBA;
   font-size: 36px;
@@ -10,6 +11,7 @@
   transition: opacity 300ms, visibility 300ms;
 }
 
+/* project button on hover */
 .project-cards:hover .project-view-button {
   visibility: visible;
   opacity: 1;

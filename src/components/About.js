@@ -27,15 +27,10 @@ const colors = {
   }
 }
 
-// const backgroundQuote = 'A journey of a thousand miles begins with a single step'
-// const backgroundText = 'That single step occured at the age of 12. '
-
 const About = () => {
     return (
       <div id="about" className="body about">
         <h1 className="body-header highlight-primary left">about me</h1>
-
-
           <div id='skills-container'>
             <div>
               <h3 className={'highlight-primary'} style={{fontSize:'150%'}}>Technical Skills</h3>
