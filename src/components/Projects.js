@@ -31,7 +31,7 @@ class Projects extends Component {
 
             <h1 className="body-header highlight-primary right">projects page</h1>
               <div id='project-container' style={{
-                  display: 'flex', 
+                  display: 'flex',
                   width: '100%',
                   flexWrap: 'wrap',
                   flexDirection: 'row',
