@@ -28,6 +28,7 @@
 }
 
 .projects {
+  /* background-color: #116466; */
   background-color: #0B0C10;
   color: white;
 }
@@ -47,7 +48,7 @@
 
 .highlight-primary {
   color: #4bcffa;
-  font-weight: 400;
+  font-weight: bolder;
   font-family: 'Amatic SC', cursive;
 }
 
@@ -68,8 +69,9 @@
 
 .body-header {
   font-size: 3.0em;
-  text-decoration: underline;
-  font-weight: 200;
+  color: white;
+  text-decoration: overline;
+  font-weight: 400;
 }
 
 .divider {

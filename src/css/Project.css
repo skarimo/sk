@@ -18,6 +18,12 @@
   color: white;
 }
 
+.project-name {
+  display: inline;
+  color: white;
+  background-color: black;
+}
+
 .project-cards:hover .project-name {
   visibility: hidden;
   opacity: 1;

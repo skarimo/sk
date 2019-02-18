@@ -42,9 +42,10 @@ const About = () => {
             </div>
           </div>
           <p>
-            Hi, I am <span className='highlight-secondary'>Sherzod</span>. A little about me: I am originally from a Central Asian country <span className='highlight-secondary'>Uzbekistan</span>. I recieved my <span className='highlight-secondary'>Bachelors Degree</span> from Queens College, CUNY in 2017. Being from Uzbekistan, I speak four different languages, <span className='highlight-secondary'>English, Russian, Uzbek and Tadjik</span>.
+            Hi, I am <span className='highlight-secondary'>Sherzod</span>. A little about me, I am originally from a Central Asian country <span className='highlight-secondary'>Uzbekistan</span>. I recieved my <span className='highlight-secondary'>Bachelors Degree</span> from Queens College, CUNY in 2017. Being from Uzbekistan, I speak four different languages, <span className='highlight-secondary'>English, Russian, Uzbek and Tadjik</span>.
             <br />
             <br />
+            My journey as a developer dates back to age of <span className='highlight-secondary'>12</span> where I was first introduces to a language called 'Lua'. .
           </p>
       </div>
     )
