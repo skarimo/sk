@@ -15,6 +15,7 @@ const ProjectModal = ({ showProject, closeModal }) => {
             <button onClick={()=> window.open(showProject.githubFront, "_blank")} className="project-github-button">FrontEnd REPO</button>
             <button onClick={()=> window.open(showProject.githubBack, "_blank")} className="project-github-button">BackEnd REPO </button>
           </div>
+          <p>{showProject.description}</p>
         </div>
       </div>
     )
