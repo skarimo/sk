@@ -22,7 +22,7 @@ class Projects extends Component {
   }
 
   render() {
-    const projectCards = ProjectList.map((project) => <ProjectCard project={project} openModal={this.openModal}/>)
+    const projectCards = ProjectList.map((project) => <ProjectCard key={project.name} project={project} openModal={this.openModal}/>)
 
       return (
           <div id="projects" className="body projects">

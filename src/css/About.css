@@ -1,13 +1,21 @@
 #skills-container {
-  width: 50%;
+  width: 30%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
   float: left;
   padding-right: 1.5%;
+  justify-content: center;
+}
+
+.icon {
+  margin: 5%;
+  font-size: 5em;
 }
 
 .skillbar-percent {
   color: black;
 }
-
 
 @media only screen and (max-width: 600px) {
   #skills-container {
