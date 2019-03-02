@@ -15,12 +15,14 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <ScrollAnimation animateIn="fadeInDownBig" animateOnce duration={1}>
+        <ScrollAnimation animateIn="fadeInDownBig" duration={1}>
           <Welcome />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" duration={1}>
           <About />
           <Projects />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" duration={0.5}>
           <Contact />
         </ScrollAnimation>
       </div>

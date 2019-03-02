@@ -25,7 +25,7 @@ class Projects extends Component {
     const projectCards = ProjectList.map((project) => <ProjectCard key={project.name} project={project} openModal={this.openModal}/>)
 
       return (
-          <div id="projects" className="body projects">
+          <section id="projects" className="body projects">
 
             <ProjectModal showProject={this.state.showProject} closeModal={this.closeModal} />
 
@@ -39,7 +39,7 @@ class Projects extends Component {
                 }}>
                 {projectCards}
               </div>
-          </div>
+          </section>
       )
     }
   }

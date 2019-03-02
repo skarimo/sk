@@ -3,7 +3,7 @@ import '../css/About.css';
 
 const About = () => {
     return (
-      <div id="about" className="body about">
+      <section id="about" className="body about">
         <h1 className="body-header highlight-primary left">about me</h1>
           <div id='skills-container'>
             <i className="devicon-css3-plain-wordmark colored icon"></i>
@@ -27,7 +27,7 @@ const About = () => {
             <br />
             Sometimes in life, many of us stray away from our passions and desires. And I was no exception. On my journey to finding back my true passion, I gained experience in Security, Loss Prevention, Behavioral Therapy and EMS. These experiences ultimately made me the <span className='highlight-secondary'>Full Stack Developer</span> I am today. This dynamic background provides me with strong skills in <span className='highlight-secondary'>Communication, Leadership, and Problem Solving</span>.
           </p>
-      </div>
+      </section>
     )
   }
 
