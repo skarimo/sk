@@ -1,6 +1,6 @@
-import stockTrainerImage from './images/stock-trainer.png'
+import stockTrainerImage from './images/stock-trainer.gif'
 import faceTrackerImage from './images/face-tracker.png'
-import expenseLoggerImage from './images/expense-logger.png'
+import expenseLoggerImage from './images/expense-logger.gif'
 
 export const ProjectList = [
     {

@@ -30,6 +30,13 @@ class Projects extends Component {
       this.setState({ showIndex: 0 })
     }
   }
+  showPreviousProject = () => {
+    if (this.state.showIndex > 0) {
+      this.setState({ showIndex: this.state.showIndex-1 })
+    } else {
+      this.setState({ showIndex: this.state.projects.length-1 })
+    }
+  }
 
 
   render() {
@@ -48,12 +55,8 @@ class Projects extends Component {
                   flexDirection: 'row',
                   justifyContent: 'center'
                 }}>
-                <div className="project-cards" style={{
-                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${this.state.projects[this.state.showIndex].image})`
-                   }}>
-                  <h3 className='highlight-secondary project-name' style={{fontSize: '3em'}}>{ this.state.projects[this.state.showIndex].name }</h3>
-                  <button className="project-view-button" onClick={this.showNextProject}>View Project</button>
-                </div>
+                {projectCards}
+                <h1 style={{width: '100%', textAlign: 'center'}}>Click on Project to see more info</h1>
               </div>
           </section>
       )
