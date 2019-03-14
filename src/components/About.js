@@ -6,6 +6,7 @@ const About = () => {
       <section id="about" className="body about">
         <h1 className="body-header highlight-primary left">about me</h1>
           <div id='skills-container'>
+            <h2 style={{textAlign:'center', width:'100%'}}>Technical Skills</h2>
             <i className="devicon-css3-plain-wordmark colored icon"></i>
             <i className="devicon-github-plain-wordmark icon"></i>
             <i className="devicon-heroku-original-wordmark colored icon"></i>

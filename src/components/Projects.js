@@ -41,7 +41,6 @@ class Projects extends Component {
 
   render() {
     const projectCards = ProjectList.map((project) => <ProjectCard key={project.name} project={project} openModal={this.openModal}/>)
-    console.log(this.state)
       return (
           <section id="projects" className="body projects">
 
